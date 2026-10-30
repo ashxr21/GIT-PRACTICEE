@@ -5,3 +5,4 @@ if num % check == 0:
     print(f"The number {check} divides evenly into the number {num}")
 else:
     print(f"Notice: {check} does not divide evenly into the number {num}.")
+print(f"it has a remainder of{num % check}")
