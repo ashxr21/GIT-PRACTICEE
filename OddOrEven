@@ -1,0 +1,7 @@
+num = int(input("Please enter a number to check:"))
+check = int(input("Please enter a number to divide by:"))
+
+if num % check == 0:
+    print(f"The number {check} divides evenly into the number {num}")
+else:
+    print(f"Notice: {check} does not divide evenly into the number {num}.")
